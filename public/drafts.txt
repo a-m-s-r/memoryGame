@@ -1,0 +1,31 @@
+
+  // function Scoreboard() {
+  //   const [players, setPlayers] = useState([
+  //     { id: 1, name: 'Player 1', active: false, score: 0 },
+  //     { id: 2, name: 'Player 2', active: false, score: 0 }
+  //   ]);
+
+  //   function handleActivatePlayer(playerId) {
+  //     setPlayers(prevPlayers => {
+  //       return prevPlayers.map(player => {
+  //         if (player.id === playerId) {
+  //           return { ...player, active: true };
+  //         } else {
+  //           return { ...player, active: false };
+  //         }
+  //       });
+  //     });
+  //   }
+
+  //   function handleScoreChange(playerId, amount) {
+  //     setPlayers(prevPlayers => {
+  //       return prevPlayers.map(player => {
+  //         if (player.id === playerId) {
+  //           return { ...player, score: player.score + amount };
+  //         } else {
+  //           return player;
+  //         }
+  //       });
+  //     });
+  //   }
+  // }
